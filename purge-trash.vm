@@ -81,7 +81,7 @@
                                 #set($dupes = "true")
                             #end
                             #set($void = $attNameMap.put($fname,"true"))
-                            <div style="margin-left:20px"><img alt="" src="/download/resources/com.atlassian.confluence.plugins.confluence-page-banner:page-banner-resources/images/grey_attach.png" height="16" width="16" title=""><i>$attId: $fname </i></div>
+                            <div style="margin-left:20px"><span class="icon icon-file-unknown" title="File">File</span><i>$attId: $fname </i></div>
                         #end
                         #if ($dupes == "true")
                             <b style="color:red"> ATTACHMENT INTEGRITY VIOLATION DETECTED</b>
